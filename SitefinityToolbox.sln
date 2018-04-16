@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitefinityToolbox.AnchorTag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitefinityToolbox.Common", "SitefinityToolbox.Common\SitefinityToolbox.Common.csproj", "{B0C04485-F45D-4208-B127-888865CFB830}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitefinityToolbox.HttpStatusSwitcher", "SitefinityToolbox.HttpStatusSwitcher\SitefinityToolbox.HttpStatusSwitcher.csproj", "{06B35673-5C68-492F-A7D0-C947D4471641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B0C04485-F45D-4208-B127-888865CFB830}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0C04485-F45D-4208-B127-888865CFB830}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0C04485-F45D-4208-B127-888865CFB830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B35673-5C68-492F-A7D0-C947D4471641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B35673-5C68-492F-A7D0-C947D4471641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B35673-5C68-492F-A7D0-C947D4471641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B35673-5C68-492F-A7D0-C947D4471641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

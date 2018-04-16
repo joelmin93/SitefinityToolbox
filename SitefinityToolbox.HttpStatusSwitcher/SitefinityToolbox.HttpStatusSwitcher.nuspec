@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SitefinityToolbox.HttpStatusSwitcher</id>
+    <version>1.8-beta</version>
+    <title>Http Status Switcher</title>
+    <authors>Joel Min</authors>
+    <owners>Joel Min</owners>
+    <licenseUrl>https://github.com/joelmin93/SitefinityToolbox/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/joelmin93/SitefinityToolbox</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Sitefinity widget that enables you to return custom HTTP statuses instead of the default 200 OK status. Useful for SEO purposese especially for error pages such as 404 or 500.</description>
+    <releaseNotes>Create a view folder for the widget.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Sitefinity, Widget</tags>
+  </metadata>
+</package>

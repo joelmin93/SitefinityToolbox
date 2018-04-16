@@ -11,7 +11,7 @@ namespace SitefinityToolbox.AnchorTag.HtmlHelper
         /// </summary>
         /// <param name="helper">The HtmlHelper.</param>
         /// <returns>The "id" attribute with the anchor tag.</returns>
-        public static MvcHtmlString RenderWidgetAnchorTag(this HtmlHelper helper)
+        public static MvcHtmlString RenderCurrentWidgetAnchorTag(this HtmlHelper helper)
         {
             var controller = helper.ViewContext.Controller;
             if (controller is IAnchorTaggedWidget widget)
@@ -22,7 +22,7 @@ namespace SitefinityToolbox.AnchorTag.HtmlHelper
             return MvcHtmlString.Empty;
         }
 
-        public static string GetWidgetAnchorTag(this HtmlHelper helper)
+        public static string GetCurrentWidgetAnchorTag(this HtmlHelper helper)
         {
             var controller = helper.ViewContext.Controller;
             if (controller is IAnchorTaggedWidget widget)

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SitefinityToolbox.Common</id>
+    <version>1.0.1-beta</version>
+    <title>Sitefinity Common Toolbox</title>
+    <authors>Joel Min</authors>
+    <owners>Joel Min</owners>
+    <licenseUrl>https://github.com/joelmin93/SitefinityToolbox/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/joelmin93/SitefinityToolbox</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A common class library shared by all components under the SitefinityToolbox project.</description>
+    <releaseNotes>Target .NET framework 4.6</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Sitefinity</tags>
+  </metadata>
+</package>

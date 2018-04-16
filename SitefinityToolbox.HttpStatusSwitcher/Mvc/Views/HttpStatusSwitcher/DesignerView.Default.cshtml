@@ -1,0 +1,39 @@
+﻿@using SitefinityToolbox.Common.Extensions
+@using SitefinityToolbox.HttpStatusSwitcher.Mvc.Controllers
+
+<div class="form-group">
+    <a class="Tooltip">
+        What is this widget?
+        <div class="Tooltip-info Tooltip-info--bottom">
+            <p>
+                By default Sitefinity returns HTTP status of 200 for all pages, which isn't ideal for SEO as it will return 200 even for error pages. This widget enables you to override it and return custom status codes.
+            </p>
+            <p>
+                For instance, you would place this widget on your 404 NOT FOUND page, set the "Status code" to 404 so it returns a 404 status instead of 200.
+            </p>
+        </div>
+    </a>
+</div>
+
+<div class="form-group">
+    <label>Status code</label>
+    <div class="row">
+        <div class="col-xs-11">
+            <select class="form-control" ng-model="@(Html.AngularPropertyFor<HttpStatusSwitcherController>(e => e.Model.HttpStatusCode))">
+                @foreach (var httpStatusCode in Html.EnumerateEnum<HttpStatusCode>().Distinct())
+                {
+                    <option value="@httpStatusCode">@((int)httpStatusCode) @httpStatusCode.ToString()</option>
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label>Status description</label>
+    <div class="row">
+        <div class="col-xs-11">
+            <input class="form-control" type="text" ng-model="@(Html.AngularPropertyFor<HttpStatusSwitcherController>(e => e.Model.StatusDescription))" />
+        </div>
+    </div>
+</div>
